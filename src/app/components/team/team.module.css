@@ -1,0 +1,35 @@
+.article {
+  position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid white;
+  }
+  
+  .article h3 {
+    border-right: 1px solid white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .article h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .article h1 img {
+    cursor: pointer;
+  }
+
+  .article h1:last-child {
+    border-left: 1px solid white;
+  }
+
+.medal {
+  display: absolute;
+  left: -50px;
+  border-right: 1px solid white;
+}
