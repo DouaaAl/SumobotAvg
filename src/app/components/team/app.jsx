@@ -54,29 +54,8 @@ const app = ({rank, score, name, id, reload}) => {
       {name}
     </h3>
     <h1>
-      <Image
-      onClick={() => addScore()}
-        height={20}
-        width={20}
-        src="/add.png"
-        alt="add"
-      />
       {scoreVar}
-      <Image
-      onClick={() => minusScore()}
-        height={20}
-        width={20}
-        src="/minus.png"
-        alt="minus"
-      />
       </h1>
-      <h1><Image
-      width={20}
-      height={20}
-      onClick={() => deleteTeam()}
-      src="/delete.png"
-      alt="delete"
-       /></h1>
   </article>
   )
 }

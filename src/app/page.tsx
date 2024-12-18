@@ -55,10 +55,6 @@ export default function Home() {
             return <Row reload={getTeams} id={item.id} key={index} rank={index + 1} name={item.name} score={item.score} />            
           })
         }
-        <form action="">
-          <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
-          <button onClick={() => addTeam()}>Add</button>
-        </form>
       </div>
       </section>
       <section className={styles.bots}>
