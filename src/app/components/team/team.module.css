@@ -32,6 +32,7 @@
   display: absolute;
   left: -50px;
   border-right: 1px solid white;
+  width: 200px;
 }
 
 @media screen and (max-width: 620px){
