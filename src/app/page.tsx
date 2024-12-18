@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     setIsClient(true); 
-    setInterval(() => window.location.reload(), 15000);
+    setInterval(() => window.location.reload(), 9000);
     getTeams();
   }, []);
 

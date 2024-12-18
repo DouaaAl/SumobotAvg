@@ -47,8 +47,6 @@ const app = ({rank, score, name, id, reload}) => {
       alt="first place"
       />: <Image className={styles.medal}
       src="/other.svg" height={50} width={150} alt='other options' />}
-      
-      
     <h3>{rank}</h3>
     <h3>
       {name}
