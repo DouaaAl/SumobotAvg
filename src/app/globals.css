@@ -6,3 +6,8 @@
     font-family: "Exo 2", sans-serif;
 
   }
+
+  body {
+    width: 100vw;
+    overflow: hidden;
+  }
