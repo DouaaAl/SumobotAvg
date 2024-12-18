@@ -33,3 +33,55 @@
   left: -50px;
   border-right: 1px solid white;
 }
+
+@media screen and (max-width: 620px){
+  .medal {
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .article h3, .article h1 {
+    padding: 0;
+  }
+
+  .article h3 {
+    font-size: 14px;
+  }
+
+  .article h1 {
+    font-size: 15px;
+  }
+
+  .article h1 img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 520px){
+  .medal {
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .article h3, .article h1 {
+    padding: 5px;
+  }
+
+  .article h3 {
+    font-size: 14px;
+  }
+
+  .article h1 {
+    font-size: 15px;
+  }
+
+  .article h1 img {
+    width: 12px;
+    height: 12px;
+  }
+}
